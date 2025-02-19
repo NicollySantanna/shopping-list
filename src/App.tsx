@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import ProductItem from "./components/ProductItem";
+import ProductItem from "./components/productItem/ProductItem";
 import { Product } from "./types";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 
 function App() {
 

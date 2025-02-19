@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { mockProducts } from "../mock/mockProducts";
-import CategoryCard from "../components/categoryCard";
-import ProductForm from "../components/ProductForm";
-import ShoppingItem from "../components/ShoppingItem";
-import { useShoppingList } from "../hooks/useShoppingList";
+import { mockProducts } from "../../mock/mockProducts";
+import CategoryCard from "../../components/categoryCard/CategoryCard";
+import ProductForm from "../../components/productForm/ProductForm";
+import ShoppingItem from "../../components/shoppingItem/ShoppingItem";
+import { useShoppingList } from "../../hooks/useShoppingList";
 import './Home.css'
-import TotalPrice from "../components/TotalPrice";
+import TotalPrice from "../../components/totalPrice/TotalPrice";
 
 const Home = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);

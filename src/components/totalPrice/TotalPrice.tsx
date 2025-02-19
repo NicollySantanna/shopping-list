@@ -1,4 +1,4 @@
-import { ShoppingItemProps } from "../types"
+import { ShoppingItemProps } from "../../types"
 
 type Props = {
     products: ShoppingItemProps[];

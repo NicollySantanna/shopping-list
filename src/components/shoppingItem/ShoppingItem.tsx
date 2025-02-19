@@ -1,5 +1,5 @@
 // src/components/ShoppingItem.tsx
-import { ShoppingItemProps } from '../types'
+import { ShoppingItemProps } from '../../types'
 
 interface ShoppingItemComponentProps {
   item: ShoppingItemProps;

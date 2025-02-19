@@ -1,7 +1,7 @@
 // src/components/ProductForm.tsx
 import { useState } from "react";
-import { ShoppingItemProps } from '../types'
-import { mockProducts } from '../mock/mockProducts'
+import { ShoppingItemProps } from '../../types'
+import { mockProducts } from '../../mock/mockProducts'
 import './ProductForm.css'
 
 type Props = {
