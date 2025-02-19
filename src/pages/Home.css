@@ -1,0 +1,29 @@
+.container-main{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.container-form{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+}
+
+.container-form h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container-categorias{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.transion-all {
+    transition: all 0.3s ease-in-out;
+}
