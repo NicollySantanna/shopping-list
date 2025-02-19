@@ -1,5 +1,4 @@
 .container-main{
-    max-width: 1400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
@@ -27,3 +26,28 @@
 .transion-all {
     transition: all 0.3s ease-in-out;
 }
+
+/* Estilos padrão para telas grandes */
+.container-main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para telas menores que 768px (tablets e celulares) */
+  @media (max-width: 768px) {
+    .container-main {
+      width: 90%; /* Largura em porcentagem */
+      padding: 0 1rem; /* Espaçamento interno */
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Estilos para telas menores que 480px (celulares) */
+  @media (max-width: 480px) {
+    .container-main {
+      width: 100%;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+  }
